@@ -1,0 +1,10 @@
+--style=allman
+-t
+--indent-preprocessor
+--indent-modifiers
+--indent-after-parens
+--indent-col1-comments
+--break-blocks
+--pad-oper
+--pad-header
+--add-braces
