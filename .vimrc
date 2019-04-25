@@ -3,7 +3,7 @@ set number relativenumber
 nnoremap <tab> <c-w>w
 nnoremap <c-m> :! make <CR>
 nnoremap <c-l> :! ./compile.sh<CR>
-vnoremap <c-c> "+y 
+vnoremap <c-c> "*y gv "+y
 set nowrap
 
 set path+=**
