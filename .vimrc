@@ -1,9 +1,15 @@
 set smartindent
 set number relativenumber
+
 nnoremap <tab> <c-w>w
 nnoremap <c-m> :! make <CR>
 nnoremap <c-l> :! ./compile.sh<CR>
-vnoremap <c-c> "*y gv "+y
+vnoremap <c-c> "+y
+nnoremap <F1> :set spell spelllang=en <CR>
+nnoremap <F2> :set spell spelllang=nl <CR>
+nnoremap <F3> :set nospell  <CR>
+
+
 set nowrap
 
 set path+=**
