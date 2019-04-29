@@ -9,6 +9,9 @@ nnoremap <F1> :set spell spelllang=en <CR>
 nnoremap <F2> :set spell spelllang=nl <CR>
 nnoremap <F3> :set nospell  <CR>
 
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
+
 
 set nowrap
 
