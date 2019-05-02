@@ -2,7 +2,7 @@ set smartindent
 set number relativenumber
 
 nnoremap <tab> <c-w>w
-nnoremap <c-m> :! make <CR>
+nnoremap mm :! make <CR>
 nnoremap <c-l> :! ./compile.sh<CR>
 vnoremap <c-c> "+y
 nnoremap <F1> :set spell spelllang=en <CR>
