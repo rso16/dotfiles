@@ -4,7 +4,7 @@
 --indent-modifiers
 --indent-after-parens
 --indent-col1-comments
---break-blocks
 --pad-oper
---pad-header
+--unpad-paren
+--break-blocks
 --add-braces
