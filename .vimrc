@@ -1,6 +1,10 @@
 set smartindent
 set number relativenumber
 
+set laststatus=2
+set statusline=%F%m%r%h%w\ [%Y]\ %=%4v,%4l\ %3p%%\ of\ %L
+"set statusline=%F%m%r%h%w\ [%Y]\ [0x%02.2B]%<\ %=%4v,%4l\ %3p%%\ of\ %L
+
 nnoremap <tab> <c-w>w
 nnoremap mm :! make <CR>
 nnoremap <c-l> :! ./compile.sh<CR>
