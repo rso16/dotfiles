@@ -7,6 +7,9 @@ set statusline=%F%m%r%h%w\ [%Y]\ %=%4v,%4l\ %3p%%\ of\ %L
 
 nnoremap <tab> <c-w>w
 nnoremap mm :! make <CR>
+nnoremap mr :! make run <CR>
+nnoremap md :! make doc <CR>
+nnoremap mc :! make clean <CR>
 nnoremap <c-l> :! ./compile.sh<CR>
 vnoremap <c-c> "+y
 nnoremap <F1> :set spell spelllang=en <CR>
